@@ -10,10 +10,10 @@
                           <span class="site-menu-title">Dashboard</span>
                       </a>
                   </li>
-                  <li class="site-menu-item {{request()->is('admin/backups')? 'active':''}}">
-                      <a class="animsition-link" href="{{ url('admin/backups') }}">
-                          <i class="site-menu-icon md-cloud-circle" aria-hidden="true"></i>
-                          <span class="site-menu-title">Backups</span>
+                  <li class="site-menu-item {{request()->is('admin/users')? 'active':''}}">
+                      <a class="animsition-link" href="{{ url('admin/users') }}">
+                          <i class="site-menu-icon md-accounts" aria-hidden="true"></i>
+                          <span class="site-menu-title">Users</span>
                       </a>
                   </li>
                 </ul>   
@@ -22,7 +22,7 @@
     </div>
     <div class="site-menubar-footer">
       <a href="{{ url('admin') }}" class="fold-show" data-placement="top" data-toggle="tooltip"
-        data-original-title="Settings">
+        data-original-title="Dashboard">
         <span class="icon md-view-dashboard" aria-hidden="true"></span>
       </a>
       <a href="{{ url('profile') }}" data-placement="top" data-toggle="tooltip" data-original-title="Profile">

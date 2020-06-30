@@ -8,7 +8,7 @@
         <div class="page-content container-fluid">
             <div class="row">
                 <!-- First Row -->
-                <x-dashboard-card url="admin/backups" title="Backups" subTitle="Cloud Server Back-ups" icon="md-cloud-circle" color="primary" :count="$backups" />
+                <x-dashboard-card url="admin/users" title="Users" subTitle="Users Accounts" icon="md-account" color="primary" :count="$users" />
                 
            </div>
         </div>

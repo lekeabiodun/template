@@ -12,6 +12,18 @@ if(!function_exists('getImage')){
 	}
 }
 
+if(!function_exists('getSite')){
+	function getSite($meta){
+		return $meta;
+	}
+}
+
+if(!function_exists('getApp')){
+	function getApp($meta){
+		return $meta;
+	}
+}
+
 if(!function_exists('user')){
 	function user(){
 		return auth()->user();

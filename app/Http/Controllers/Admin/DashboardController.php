@@ -2,16 +2,15 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Models\Backup;
-
+use App\Models\User;
 
 class DashboardController 
 {
 
     public function index()
     {
-        $backups = Backup::count();
-        return view("admin.dashboard", compact('backups'));
+        $users = User::count();
+        return view("admin.dashboard", compact('users'));
     }
 
 }

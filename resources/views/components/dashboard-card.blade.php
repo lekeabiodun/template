@@ -1,4 +1,4 @@
-<div class="col-xl-3 col-md-6 info-panel">
+<div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 info-panel">
     <a href="{{ url($url??'') }}" class="text-decoration-none">
         <div class="card card-shadow">
             <div class="card-block bg-white p-20">
